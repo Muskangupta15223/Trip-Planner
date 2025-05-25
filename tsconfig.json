@@ -1,0 +1,23 @@
+// {
+//     "compilerOptions": {
+//       "jsx": "react",
+//       "allowJs": true, 
+//       "baseUrl": "./",
+//       "paths": {
+//         "@/*": ["src/*"]
+//       },
+//       "forceConsistentCasingInFileNames": true, 
+//       "strict":true  
+//       }
+//   }
+  {
+    "compilerOptions": {
+      "allowJs": true,
+      "checkJs": false,
+      "jsx": "react-jsx",
+      "module": "ESNext",
+      "target": "ESNext",
+      "moduleResolution": "Node"
+    },
+    "include": ["src"]
+  }
